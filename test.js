@@ -2,12 +2,12 @@
 
 describe("filter", function () {
   it("String and return the filter value", function () {
-    assert.equal("I am good man", "I am not good man!".filter("good"));
+    assert.equal("I am not man!", "I am not good man!".filter("good"));
   });
   it("take string and filter according to the array filter data", function () {
     assert.equal(
-      "My name is not a propper syntax!",
-      "not a propper syantax!".filter(["My", "name", "is"])
+      "not a propper syntax!",
+      "My name is not a propper syntax!".filter(["My", "name", "is"])
     );
   });
 });
