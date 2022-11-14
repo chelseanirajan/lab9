@@ -1,5 +1,3 @@
-//Gilbert Muneka Mumbere
-
 describe("filter", function () {
   it("String and return the filter value", function () {
     assert.equal("I am not man!", "I am not good man!".filter("good"));
